@@ -1,0 +1,221 @@
+{
+    "name": "Редактирование валидной новости",
+    "start": 1774943671403,
+    "stop": 1774943678035,
+    "stage": "finished",
+    "description": "Авторизованный пользователь открывает Control panel, редактирует валидную новость и возвращается к списку",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Открытие главного меню",
+            "start": 1774943675634,
+            "stop": 1774943675634,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Переход в раздел News из меню",
+            "start": 1774943676017,
+            "stop": 1774943676017,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка, что открыт экран News",
+            "start": 1774943676464,
+            "stop": 1774943676464,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Переход в Control panel",
+            "start": 1774943676470,
+            "stop": 1774943676470,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка, что открыт экран Control panel",
+            "start": 1774943677002,
+            "stop": 1774943677002,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажатие на редактирование новости в позиции: 1",
+            "start": 1774943677008,
+            "stop": 1774943677008,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка, что открыт экран создания или редактирования новости",
+            "start": 1774943677391,
+            "stop": 1774943677391,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод заголовка новости: ИзмененнаяНовость_1774943677396",
+            "start": 1774943677396,
+            "stop": 1774943677396,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Сохранение новости",
+            "start": 1774943677425,
+            "stop": 1774943677425,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка, что открыт экран Control panel",
+            "start": 1774943677746,
+            "stop": 1774943677746,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "a03d5ce9-b7c0-43a1-a803-659fe6917657",
+    "historyId": "4256a82257934c3eb38c165e459288eb",
+    "fullName": "ru.iteco.fmhandroid.test.news.NewsCrudTest.editValidNewsShouldReturnToControlPanel",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.test.news"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.test.news.NewsCrudTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "editValidNewsShouldReturnToControlPanel"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.test.news.NewsCrudTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1251)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "feature",
+            "value": "Работа с новостями"
+        },
+        {
+            "name": "epic",
+            "value": "Мобильное приложение Мобильный хоспис"
+        }
+    ]
+}

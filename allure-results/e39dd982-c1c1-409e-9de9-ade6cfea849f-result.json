@@ -1,0 +1,157 @@
+{
+    "name": "Авторизация с пустым логином",
+    "start": 1774946507553,
+    "stop": 1774946514075,
+    "stage": "finished",
+    "description": "При пустом логине и заполненном пароле отображается сообщение о незаполненных обязательных полях",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Открытие меню авторизации",
+            "start": 1774946512437,
+            "stop": 1774946512438,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выход из учетной записи",
+            "start": 1774946512890,
+            "stop": 1774946512890,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ожидание экрана авторизации",
+            "start": 1774946513266,
+            "stop": 1774946513266,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод пароля",
+            "start": 1774946513274,
+            "stop": 1774946513274,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажатие на кнопку входа",
+            "start": 1774946513326,
+            "stop": 1774946513326,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка toast о пустом логине или пароле",
+            "start": 1774946513636,
+            "stop": 1774946513636,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "e39dd982-c1c1-409e-9de9-ade6cfea849f",
+    "historyId": "e547efa20da815ad17f33365c8cffb2c",
+    "fullName": "ru.iteco.fmhandroid.test.auth.AuthorizationNegativeTest.emptyLoginShouldShowValidationToast",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.test.auth"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.test.auth.AuthorizationNegativeTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "emptyLoginShouldShowValidationToast"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.test.auth.AuthorizationNegativeTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1482)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "feature",
+            "value": "Авторизация"
+        },
+        {
+            "name": "epic",
+            "value": "Мобильное приложение Мобильный хоспис"
+        }
+    ]
+}

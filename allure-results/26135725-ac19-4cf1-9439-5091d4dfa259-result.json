@@ -1,0 +1,205 @@
+{
+    "name": "Открытие раздела News и раскрытие новости",
+    "start": 1774874747304,
+    "stop": 1774874755064,
+    "stage": "finished",
+    "description": "Авторизованный пользователь открывает раздел News и раскрывает первую карточку новости",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Ожидание экрана авторизации",
+            "start": 1774874748281,
+            "stop": 1774874748282,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод логина: login2",
+            "start": 1774874751739,
+            "stop": 1774874751739,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод пароля",
+            "start": 1774874751779,
+            "stop": 1774874751779,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажатие на кнопку входа",
+            "start": 1774874751807,
+            "stop": 1774874751807,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка, что открыт главный экран",
+            "start": 1774874752135,
+            "stop": 1774874752135,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открытие главного меню",
+            "start": 1774874753161,
+            "stop": 1774874753162,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Переход в раздел News из меню",
+            "start": 1774874753755,
+            "stop": 1774874753755,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка, что открыт экран News",
+            "start": 1774874754407,
+            "stop": 1774874754407,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Раскрытие первой новости в списке",
+            "start": 1774874754425,
+            "stop": 1774874754425,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "26135725-ac19-4cf1-9439-5091d4dfa259",
+    "historyId": "ce64ae3ab0b775346d3f54832591a777",
+    "fullName": "ru.iteco.fmhandroid.test.news.NewsCrudTest.authorizedUserCanOpenNewsAndExpandFirstItem",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.test.news"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.test.news.NewsCrudTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "authorizedUserCanOpenNewsAndExpandFirstItem"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.test.news.NewsCrudTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(717)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "epic",
+            "value": "Мобильное приложение Мобильный хоспис"
+        },
+        {
+            "name": "feature",
+            "value": "Работа с новостями"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "name": "Создание новости с валидными данными",
+    "start": 1774867904126,
+    "stop": 1774867910322,
+    "stage": "finished",
+    "description": "Авторизованный пользователь открывает Control panel, создает новость и возвращается к списку новостей",
+    "descriptionHtml": null,
+    "status": "broken",
+    "statusDetails": {
+        "message": "java.lang.NullPointerException",
+        "trace": "java.lang.NullPointerException\n\tat androidx.test.espresso.core.internal.deps.guava.base.Preconditions.checkNotNull(Preconditions.java:2)\n\tat androidx.test.espresso.PerformException.<init>(PerformException.java:3)\n\tat androidx.test.espresso.PerformException.<init>(Unknown Source:0)\n\tat androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)\n\tat ru.iteco.fmhandroid.helper.ViewActionsExt$1.perform(ViewActionsExt.java:45)\n\tat androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)\n\tat androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)\n\tat androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)\n\tat androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)\n\tat androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat android.os.Handler.handleCallback(Handler.java:883)\n\tat android.os.Handler.dispatchMessage(Handler.java:100)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\n"
+    },
+    "steps": [
+        {
+            "name": "Ожидание экрана авторизации",
+            "start": 1774867904557,
+            "stop": 1774867904557,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "5542c59e-447b-43f2-839c-680dd2c9b72c",
+    "historyId": "9bac6054f475d20490be292158e3025a",
+    "fullName": "ru.iteco.fmhandroid.test.news.NewsCrudTest.createNewsWithValidDataShouldReturnToControlPanel",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.test.news"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.test.news.NewsCrudTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "createNewsWithValidDataShouldReturnToControlPanel"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.test.news.NewsCrudTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(662)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "epic",
+            "value": "Мобильное приложение Мобильный хоспис"
+        },
+        {
+            "name": "feature",
+            "value": "Работа с новостями"
+        }
+    ]
+}

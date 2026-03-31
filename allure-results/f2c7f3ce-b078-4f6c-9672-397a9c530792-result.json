@@ -1,0 +1,125 @@
+{
+    "name": "Авторизация с пустым паролем",
+    "start": 1774865152010,
+    "stop": 1774865156372,
+    "stage": "finished",
+    "description": "При заполненном логине и пустом пароле отображается сообщение о незаполненных обязательных полях",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Ожидание экрана авторизации",
+            "start": 1774865152527,
+            "stop": 1774865152527,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод логина: login2",
+            "start": 1774865155549,
+            "stop": 1774865155549,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажатие на кнопку входа",
+            "start": 1774865155583,
+            "stop": 1774865155583,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка toast о пустом логине или пароле",
+            "start": 1774865155991,
+            "stop": 1774865155991,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "f2c7f3ce-b078-4f6c-9672-397a9c530792",
+    "historyId": "8530a2df0b33f5bffc5d761b8d233644",
+    "fullName": "ru.iteco.fmhandroid.test.auth.AuthorizationNegativeTest.emptyPasswordShouldShowValidationToast",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.test.auth"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.test.auth.AuthorizationNegativeTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "emptyPasswordShouldShowValidationToast"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.test.auth.AuthorizationNegativeTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(361)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "feature",
+            "value": "Авторизация"
+        },
+        {
+            "name": "epic",
+            "value": "Мобильное приложение Мобильный хоспис"
+        }
+    ]
+}
