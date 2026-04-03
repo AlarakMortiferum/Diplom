@@ -1,0 +1,301 @@
+{
+    "name": "Создание новости с валидными данными",
+    "start": 1775247678611,
+    "stop": 1775247687365,
+    "stage": "finished",
+    "description": "Авторизованный пользователь создает новость и проверяет, что она появилась в списке",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Открытие главного меню",
+            "start": 1775247681986,
+            "stop": 1775247681987,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Переход в раздел News из меню",
+            "start": 1775247682353,
+            "stop": 1775247682353,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка, что открыт экран News",
+            "start": 1775247682746,
+            "stop": 1775247682746,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Переход в Control panel",
+            "start": 1775247682750,
+            "stop": 1775247682750,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка, что открыт экран Control panel",
+            "start": 1775247683203,
+            "stop": 1775247683203,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажатие на кнопку добавления новости",
+            "start": 1775247683207,
+            "stop": 1775247683207,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка, что открыт экран создания или редактирования новости",
+            "start": 1775247683680,
+            "stop": 1775247683680,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выбор категории: Объявление",
+            "start": 1775247683683,
+            "stop": 1775247683683,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод заголовка новости: АвтоНовость_1775247681986",
+            "start": 1775247684411,
+            "stop": 1775247684411,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выбор текущей даты публикации",
+            "start": 1775247684767,
+            "stop": 1775247684767,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выбор текущего времени публикации",
+            "start": 1775247685871,
+            "stop": 1775247685871,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод описания новости",
+            "start": 1775247686722,
+            "stop": 1775247686722,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Сохранение новости",
+            "start": 1775247686753,
+            "stop": 1775247686753,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка, что открыт экран Control panel",
+            "start": 1775247687126,
+            "stop": 1775247687126,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка, что новость с заголовком присутствует в списке: АвтоНовость_1775247681986",
+            "start": 1775247687135,
+            "stop": 1775247687135,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "3b5329c9-f294-44ad-94a2-06788f63226b",
+    "historyId": "3a35f6af651543986d4212a889d4085a",
+    "fullName": "ru.iteco.fmhandroid.test.news.NewsCrudTest.createNewsWithValidDataShouldCreateNewsInList",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.test.news"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.test.news.NewsCrudTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "createNewsWithValidDataShouldCreateNewsInList"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.test.news.NewsCrudTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2030)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "feature",
+            "value": "Работа с новостями"
+        },
+        {
+            "name": "epic",
+            "value": "Мобильное приложение Мобильный хоспис"
+        }
+    ]
+}

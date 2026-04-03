@@ -10,7 +10,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 
-
+import ru.iteco.fmhandroid.data.TestData;
 import ru.iteco.fmhandroid.R;
 import ru.iteco.fmhandroid.helper.ToastMatcher;
 import ru.iteco.fmhandroid.helper.ViewActionsExt;
@@ -64,9 +64,9 @@ public class AuthScreen {
         return this;
     }
 
-    public AuthScreen assertWrongCredentialsToast() {
-        Allure.step("Проверка toast о неверном логине или пароле");
-        onView(withText(R.string.wrong_login_or_password))
+    public AuthScreen assertInvalidCredentialsToast() {
+        Allure.step("Проверка toast о неверных учетных данных");
+        onView(withText(TestData.INVALID_CREDENTIALS_ERROR_TEXT))
                 .inRoot(new ToastMatcher())
                 .check(matches(isDisplayed()));
         return this;

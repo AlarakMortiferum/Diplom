@@ -85,7 +85,7 @@ public abstract class BaseTest {
     }
 
     private void waitUntilAuthorizedAreaVisible() {
-        device.wait(Until.hasObject(By.res(APP_PACKAGE, "authorization_image_button")), AUTHORIZED_STATE_TIMEOUT);
+        device.wait(Until.hasObject(By.res(APP_PACKAGE, "main_menu_image_button")), AUTHORIZED_STATE_TIMEOUT);
     }
 
     private boolean isAuthScreenVisible() {
@@ -93,6 +93,6 @@ public abstract class BaseTest {
     }
 
     private boolean isAuthorizedAreaVisible() {
-        return device.hasObject(By.res(APP_PACKAGE, "authorization_image_button"));
+        return device.hasObject(By.res(APP_PACKAGE, "main_menu_image_button"));
     }
 }

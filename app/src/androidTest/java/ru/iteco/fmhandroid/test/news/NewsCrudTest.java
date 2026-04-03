@@ -1,5 +1,6 @@
 package ru.iteco.fmhandroid.test.news;
 
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -23,12 +24,15 @@ public class NewsCrudTest extends BaseTest {
     private final ControlPanelScreen controlPanelScreen = new ControlPanelScreen();
     private final CreateEditNewsScreen createEditNewsScreen = new CreateEditNewsScreen();
 
+    @Before
+    public void prepareAuthorizedState() {
+        ensureAuthorized();
+    }
+
     @Test
     @DisplayName("Открытие раздела News и раскрытие новости")
     @Description("Авторизованный пользователь открывает раздел News и раскрывает первую карточку новости")
     public void authorizedUserCanOpenNewsAndExpandFirstItem() {
-        ensureAuthorized();
-
         topBar.goToNews();
         newsScreen.assertOpened()
                 .assertNewsRecyclerDisplayed()
@@ -37,9 +41,10 @@ public class NewsCrudTest extends BaseTest {
 
     @Test
     @DisplayName("Создание новости с валидными данными")
-    @Description("Авторизованный пользователь открывает Control panel, создает новость и возвращается к списку новостей")
-    public void createNewsWithValidDataShouldReturnToControlPanel() {
-        ensureAuthorized();
+    @Description("Авторизованный пользователь создает новость и проверяет, что она появилась в списке")
+    public void createNewsWithValidDataShouldCreateNewsInList() {
+        String createdTitle = TestData.uniqueTitle(TestData.CREATE_NEWS_TITLE_PREFIX);
+        String createdDescription = TestData.uniqueDescription(TestData.CREATE_NEWS_DESCRIPTION_PREFIX);
 
         topBar.goToNews();
         newsScreen.assertOpened().openControlPanel();
@@ -47,29 +52,31 @@ public class NewsCrudTest extends BaseTest {
 
         createEditNewsScreen.assertOpened()
                 .selectCategory(TestData.NEWS_CATEGORY_ADVERTISEMENT)
-                .enterTitle(TestData.uniqueTitle("АвтоНовость"))
+                .enterTitle(createdTitle)
                 .chooseCurrentDate()
                 .chooseCurrentTime()
-                .enterDescription(TestData.uniqueDescription("АвтоОписание"))
+                .enterDescription(createdDescription)
                 .save();
 
-        controlPanelScreen.assertOpened();
+        controlPanelScreen.assertOpened()
+                .assertNewsWithTitleDisplayed(createdTitle);
     }
 
     @Test
     @DisplayName("Редактирование валидной новости")
-    @Description("Авторизованный пользователь открывает Control panel, редактирует валидную новость и возвращается к списку")
-    public void editValidNewsShouldReturnToControlPanel() {
-        ensureAuthorized();
+    @Description("Авторизованный пользователь редактирует новость и проверяет, что измененный заголовок отображается в списке")
+    public void editValidNewsShouldChangeTitleInList() {
+        String editedTitle = TestData.uniqueTitle(TestData.EDIT_NEWS_TITLE_PREFIX);
 
         topBar.goToNews();
         newsScreen.assertOpened().openControlPanel();
         controlPanelScreen.assertOpened().clickEditNewsAtPosition(1);
 
         createEditNewsScreen.assertOpened()
-                .enterTitle(TestData.uniqueTitle("ИзмененнаяНовость"))
+                .enterTitle(editedTitle)
                 .save();
 
-        controlPanelScreen.assertOpened();
+        controlPanelScreen.assertOpened()
+                .assertNewsWithTitleDisplayed(editedTitle);
     }
 }

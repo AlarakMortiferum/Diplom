@@ -6,6 +6,9 @@ import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.isRoot;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
+import static org.hamcrest.Matchers.allOf;
+import static androidx.test.espresso.matcher.ViewMatchers.hasDescendant;
 
 import androidx.test.espresso.contrib.RecyclerViewActions;
 
@@ -36,6 +39,15 @@ public class ControlPanelScreen {
                         ViewActionsExt.clickChildViewWithId(R.id.edit_news_item_image_view)
                 )
         );
+        return this;
+    }
+    public ControlPanelScreen assertNewsWithTitleDisplayed(String title) {
+        Allure.step("Проверка, что новость с заголовком присутствует в списке: " + title);
+        onView(withId(R.id.news_list_recycler_view)).perform(
+                RecyclerViewActions.scrollTo(hasDescendant(withText(title)))
+        );
+        onView(allOf(withId(R.id.news_item_title_text_view), withText(title)))
+                .check(matches(isDisplayed()));
         return this;
     }
 }

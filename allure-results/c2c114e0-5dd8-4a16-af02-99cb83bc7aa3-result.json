@@ -1,0 +1,141 @@
+{
+    "name": "Авторизация с неверными учетными данными",
+    "start": 1775247614319,
+    "stop": 1775247619037,
+    "stage": "finished",
+    "description": "При неверном логине и пароле отображается сообщение Something went wrong. Try again later.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Ожидание экрана авторизации",
+            "start": 1775247618140,
+            "stop": 1775247618140,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод логина: wrongLogin",
+            "start": 1775247618145,
+            "stop": 1775247618145,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод пароля",
+            "start": 1775247618173,
+            "stop": 1775247618173,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажатие на кнопку входа",
+            "start": 1775247618198,
+            "stop": 1775247618198,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка toast о неверных учетных данных",
+            "start": 1775247618500,
+            "stop": 1775247618500,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "c2c114e0-5dd8-4a16-af02-99cb83bc7aa3",
+    "historyId": "f4d24c8f6ed69be2920c400b639cbabb",
+    "fullName": "ru.iteco.fmhandroid.test.auth.AuthorizationNegativeTest.invalidCredentialsShouldShowErrorToast",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.test.auth"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.test.auth.AuthorizationNegativeTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "invalidCredentialsShouldShowErrorToast"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.test.auth.AuthorizationNegativeTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(2001)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "feature",
+            "value": "Авторизация"
+        },
+        {
+            "name": "epic",
+            "value": "Мобильное приложение Мобильный хоспис"
+        }
+    ]
+}

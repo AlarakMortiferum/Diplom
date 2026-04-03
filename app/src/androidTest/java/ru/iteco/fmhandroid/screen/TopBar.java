@@ -3,24 +3,27 @@ package ru.iteco.fmhandroid.screen;
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.matcher.RootMatchers.isPlatformPopup;
-import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription;
+import static androidx.test.espresso.matcher.ViewMatchers.isRoot;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 
 import io.qameta.allure.kotlin.Allure;
 import ru.iteco.fmhandroid.R;
+import ru.iteco.fmhandroid.helper.ViewActionsExt;
 
 public class TopBar {
 
     public TopBar openMainMenu() {
         Allure.step("Открытие главного меню");
-        onView(withContentDescription(R.string.main_menu)).perform(click());
+        onView(isRoot()).perform(ViewActionsExt.waitDisplayed(R.id.main_menu_image_button, 5000));
+        onView(withId(R.id.main_menu_image_button)).perform(click());
         return this;
     }
 
     public TopBar openAuthorizationMenu() {
         Allure.step("Открытие меню авторизации");
-        onView(withContentDescription(R.string.authorization)).perform(click());
+        onView(isRoot()).perform(ViewActionsExt.waitDisplayed(R.id.authorization_image_button, 5000));
+        onView(withId(R.id.authorization_image_button)).perform(click());
         return this;
     }
 
@@ -47,7 +50,8 @@ public class TopBar {
 
     public TopBar goToOurMission() {
         Allure.step("Переход в раздел Our Mission по кнопке в верхней панели");
-        onView(withContentDescription(R.string.our_mission)).perform(click());
+        onView(isRoot()).perform(ViewActionsExt.waitDisplayed(R.id.our_mission_image_button, 5000));
+        onView(withId(R.id.our_mission_image_button)).perform(click());
         return this;
     }
 

@@ -47,4 +47,14 @@ public class AuthorizationNegativeTest extends BaseTest {
                 .clickSignIn()
                 .assertEmptyCredentialsToast();
     }
+
+    @Test
+    @DisplayName("Авторизация с неверными учетными данными")
+    @Description("При неверном логине и пароле отображается сообщение Something went wrong. Try again later.")
+    public void invalidCredentialsShouldShowErrorToast() {
+        authScreen.enterLogin(TestData.INVALID_LOGIN)
+                .enterPassword(TestData.INVALID_PASSWORD)
+                .clickSignIn()
+                .assertInvalidCredentialsToast();
+    }
 }

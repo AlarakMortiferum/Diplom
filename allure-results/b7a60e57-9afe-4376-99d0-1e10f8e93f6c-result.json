@@ -1,0 +1,173 @@
+{
+    "name": "Успешная авторизация",
+    "start": 1775247592019,
+    "stop": 1775247599901,
+    "stage": "finished",
+    "description": "Пользователь с валидными данными может войти в приложение",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Открытие меню авторизации",
+            "start": 1775247597268,
+            "stop": 1775247597268,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выход из учетной записи",
+            "start": 1775247597688,
+            "stop": 1775247597688,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ожидание экрана авторизации",
+            "start": 1775247598598,
+            "stop": 1775247598598,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод логина: login2",
+            "start": 1775247598605,
+            "stop": 1775247598605,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод пароля",
+            "start": 1775247598642,
+            "stop": 1775247598642,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажатие на кнопку входа",
+            "start": 1775247598661,
+            "stop": 1775247598661,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка, что открыт главный экран",
+            "start": 1775247598950,
+            "stop": 1775247598950,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "b7a60e57-9afe-4376-99d0-1e10f8e93f6c",
+    "historyId": "dc931a90abb74682b1fd5c5605fe7dff",
+    "fullName": "ru.iteco.fmhandroid.test.auth.AuthorizationPositiveTest.successfulAuthorizationShouldOpenMainScreen",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.test.auth"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.test.auth.AuthorizationPositiveTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "successfulAuthorizationShouldOpenMainScreen"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.test.auth.AuthorizationPositiveTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1992)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "epic",
+            "value": "Мобильное приложение Мобильный хоспис"
+        },
+        {
+            "name": "feature",
+            "value": "Авторизация"
+        }
+    ]
+}
