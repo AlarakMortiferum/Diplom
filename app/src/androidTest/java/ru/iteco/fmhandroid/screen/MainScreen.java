@@ -13,11 +13,13 @@ import ru.iteco.fmhandroid.helper.ViewActionsExt;
 public class MainScreen {
 
     public MainScreen assertOpened() {
-        Allure.step("Проверка, что открыт главный экран");
+        Allure.step("Проверка, что открыт главный экран: отображаются логотип приложения и блок новостей");
         onView(isRoot())
-                .perform(ViewActionsExt.waitDisplayed(R.id.main_swipe_refresh, 5000));
-        onView(withId(R.id.main_swipe_refresh)).check(matches(isDisplayed()));
+                .perform(ViewActionsExt.waitDisplayed(R.id.trademark_image_view, 5000));
+
+        onView(withId(R.id.trademark_image_view)).check(matches(isDisplayed()));
         onView(withId(R.id.container_list_news_include_on_fragment_main)).check(matches(isDisplayed()));
+
         return this;
     }
 }
